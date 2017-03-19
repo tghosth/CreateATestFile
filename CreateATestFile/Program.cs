@@ -10,6 +10,8 @@ using System.ComponentModel;
 
 namespace CreateATestFile
 {
+
+
     class Program
     {
         static void Main(string[] args)
@@ -17,7 +19,8 @@ namespace CreateATestFile
             GetAndDisplayRights();
         }
 
-
+        // This program based on nice trick from here:
+        // https://victorhurdugaci.com/using-uac-with-c-part-1
         private static void DoStuff()
         {
             try
